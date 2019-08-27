@@ -47,3 +47,8 @@ def sum_array(integer)
   integers = [11,4,7,8,9,100,134]
   integers.inject(0){|sum,integer| sum + integer }
 end
+
+def add_s(word)
+  stuff = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
+  stuff.each_with_index.collect{|word, index| + "s"}
+end

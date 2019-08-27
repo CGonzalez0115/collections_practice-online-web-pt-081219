@@ -36,6 +36,7 @@ def kesha_maker(bills)
     end
   end
 end
+end
 
 def find_a(words)
   fruits = ["apple", "orange", "pear", "avis", "arlo", "ascot"]
